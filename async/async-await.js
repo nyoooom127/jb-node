@@ -8,7 +8,7 @@ const howManyCandlesCallback = (dayNumber, callback) => {
     }
 
     return callback(null, dayNumber + 1);
-}
+};
 
 const howManyCandles = ((numDays) => {
     return new Promise((resolve, reject) => {
@@ -18,8 +18,8 @@ const howManyCandles = ((numDays) => {
             }
 
             return resolve(numCandles);
-        })
-    })
+        });
+    });
 })
 
     (async () => {

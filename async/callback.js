@@ -36,6 +36,6 @@ const func = (dayNum, numCandlesT) => {
             return func(dayNum + 1, numCandlesT + numCandles);
         }
     });
-}
+};
 
 func(1, 0);
